@@ -1,0 +1,474 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background: url(../img/pohja5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+#wrapper {
+  min-height:100%;
+  position:relative;
+}
+
+footer {
+/*  background-color: #171CB7;
+  width:100%;
+  height:200px;
+  position:absolute;
+  bottom:0;
+  left:0;*/
+  margin-top: 50px;
+}
+
+footer img, .logomobile {
+  padding: 30px 0;
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 1em;
+  line-height: 130%;
+}
+
+
+h1, h2, h3, h4, h5, .luelisaa {
+  font-weight: 800;
+  font-style: italic;
+  color: #171CB7;
+}
+
+h2, h4 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+    word-spacing: 5px;
+}
+
+h3 {
+  line-height: 125%;
+  padding-bottom: 15px;
+  font-style: normal;
+  color: #03A27E;
+}
+
+h4 {
+  font-size: 22px;
+  word-spacing: 2px;
+}
+
+.pienempileipis {
+  font-size: 1.1em;
+}
+
+p,
+ol>li,
+.list {
+  font-size: 1.2em;
+}
+
+.list {
+  list-style-position: inside;
+  text-indent: -17px;
+  color: #333333;
+}
+
+.vaadimme {
+  padding-left: 17px;
+}
+
+.haasteol {
+  padding-left: 20px;
+}
+
+.tuunaa {
+  padding: 20px 0 20px 0;
+}
+
+.sitaatti {
+  color: #03A27E;
+  font-size: 1.2em;
+  padding: 20px 0px 20px 0px;
+}
+
+.luelisaa,
+.luelisaa:visited {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: #03A27E;
+  line-height: 200%;
+  word-spacing: 1px;
+  text-decoration: underline;
+}
+
+.pienia {
+  color: #03A27E;
+}
+
+.pienia:hover, .luelisaa:hover,
+.pienia:focus, .luelisaa:focus {
+  color: #171CB7;
+}
+
+#instafeed {
+  padding-bottom: 50px;
+}
+
+.container,
+.container-fluid {
+  max-width: 900px;
+}
+
+.box {
+  padding: 30px 50px;
+  background-color: rgba(255,254,225,0.9);
+  margin-bottom: 30px;
+}
+
+.smallbox {
+  padding: 30px 50px;
+  background-color: rgba(255,254,225,0.9);
+  margin-bottom: 30px;
+  width: 48.3%;
+}
+
+.smallbox:last-child {
+  float: right;
+}
+
+.info {
+  margin-top: 120px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 7em;
+  line-height: 70%
+}
+
+.navbar-default {
+  background: transparent;
+  border: none;
+}
+
+.navbar-default {
+  top: 40px;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+  color: #171CB7;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #171CB7;
+}
+
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:focus {
+  background-color: #171CB7;
+}
+
+.navbar-default .navbar-nav>li {
+  margin: 60px 15px 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:active {
+  background-color: #03A27E;
+  color: #fff;
+}
+
+.current {
+  background-color: #03A27E;
+}
+
+input {
+  height: 25px;
+}
+
+label {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.twitter {
+  padding-top: 50px;
+}
+
+.puhekupla {
+  position: absolute;
+  right: 10%;
+  top: -15px;
+  -ms-transform: rotate(-4deg); /* IE 9 */
+  -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+  transform: rotate(-4deg);
+}
+
+/* SHARE ======================================================= */
+
+#socialPanel {
+  background-color: #171CB7;
+  position: fixed;
+  z-index: 9999;
+  top: 240px;
+  right: 0px;
+  width: 45px;
+  height: 90px;
+}
+
+#socialPanel ul {
+  margin: 15px 15px 15px 10px;
+  padding:0;
+  list-style: none;
+}
+
+#socialPanel li {
+  width: 25px;
+  height: 25px;
+}
+
+#socialPanel li+li {
+  margin-top: 4px;
+}
+
+#socialPanel li a {
+  display: block;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+  text-indent: -2000px;
+  border: none;
+  margin: 15px 0;
+}
+
+#FBShare {
+  background: url("../img/facebook.svg") no-repeat scroll left top transparent;
+}
+
+#TWShare {
+  background: url("../img/twitter.svg") no-repeat scroll left top transparent;
+}
+
+#InstaShare {
+  background: url("../img/instagram.svg") no-repeat scroll left top transparent;
+}
+
+#socialPanel li a:hover {
+  background-position: left bottom;
+}
+
+canvas {
+  border: 1px dotted #171CB7;
+}
+
+.btn-default {
+  margin: 10px;
+  color: #fff;
+  border-radius: 0;
+  background-color: #171CB7;
+  border: 0px solid #171CB7;
+  height: 30px;
+}
+
+.btn:active {
+  background-color: #03A27E;
+  color: #fff;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-defaul:active,
+.btn-default.active {
+  background-color: #03A27E;
+  color: #fff;
+  outline:none;
+}
+
+.fileupload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileupload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#canvaspohja {
+  display:block;
+  width:100%;
+  padding:50px;
+  height:400px;
+}
+
+textarea {
+  width: 100%;
+  display: block;
+  margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+  .info {
+    margin-top: 140px;
+  }
+  footer img {
+    width: 80%;
+    margin: auto;
+  }
+  .smallbox {
+    height: 630px;
+  }
+}
+
+@media (min-width: 940px) {
+  .navbar-default .navbar-nav>li:first-child {
+    margin-left: 0;
+  }
+  .navbar-default .navbar-nav>li:nth-child(3) {
+    margin-right: 0;
+  }
+  footer img {
+    width: 60%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1030px) {
+  .navbar-default .navbar-nav>li {
+    margin: 60px 8px 0;
+  }
+  .navbar-default .navbar-nav {
+    margin-right: 3%;
+  }
+  #wrapper {
+    margin-left: 10px;
+    margin-right: 55px;
+  }
+  .box {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .last {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .smallbox:first-child {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .smallbox:last-child {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 900px) {
+  p,
+  ol>li,
+  .list {
+    width: 85%;
+  }
+  .sitaatti, .valiotsikko {
+    width: 85%;
+  }
+  textarea {
+    width: 85%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 300px) {
+  .nav>li {
+    display: inline-block;
+    top: 60px;
+  }
+  #socialPanel {
+    top: 285px;
+  }
+  .smallbox {
+    width: 100%;
+  }
+  .puhekupla {
+    right: 4%;
+  }
+}
+
+@media (max-width: 550px) {
+  footer img {
+    width: 100%;
+    margin: auto;
+  }
+  #socialPanel {
+    display: none;
+  }
+  #wrapper {
+    margin-right: 10px;
+  }
+  .tuunaa {
+    display: none;
+  }
+}
+
+@media (max-width: 421px) {
+  .navbar-brand {
+    font-size: 20vw;
+  }
+  .box,
+  .smallbox {
+    padding: 30px 15px;
+  }
+  .twitter {
+    padding: 50px 15px;
+    margin-bottom: 0;
+  }
+  #wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .navbar-default .navbar-nav>li>a {
+    padding: 8px 8px;
+  }
+  .navbar-default .navbar-nav>li {
+    margin-right: 0;
+    margin-top: 50px;
+  }
+  p,
+  ol>li, .list {
+    font-size: 1.1em;
+  }
+  h2 {
+    font-size: 24px;
+    word-spacing: 2px;
+  }
+  h4 {
+  font-size: 18px;
+  word-spacing: 1.5px;
+  }
+  .puhekupla {
+    right: 3%;
+    font-size: 14px;
+  }
+
+}
